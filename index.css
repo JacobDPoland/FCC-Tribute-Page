@@ -38,3 +38,43 @@ figcaption {
     margin-right: auto;
     margin-top: 1.5em;
 }
+
+#timeline-header {
+    margin-top: 4em;
+    font-size: large;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+#tribute-info {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+@media only screen and (min-width: 1000px){
+    #tribute-info{
+        max-width: 60%;
+    }
+    #quote {
+        max-width: 50%;
+        margin: auto;
+    }
+    #credit {
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+#quote {
+    margin-top: 3em;
+    font-size: .9em;
+    line-height: 1.8em;
+}
+
+#credit {
+    margin-top: 1em;
+    font-size: .9em;
+}
